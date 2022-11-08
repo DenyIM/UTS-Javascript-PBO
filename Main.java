@@ -42,7 +42,7 @@ public class Main {
         System.out.println("Gaji Pokok : "+dosen1.getGaji());
         System.out.println("Bonus Gaji Mengajar/Minggu : "+dosen1.hitungBonus());
         System.out.println("Bonus Gaji Lembur/Minggu : "+dosen1.hitungLembur());
-        System.out.println("Total Gaji : "+dosen1.hitungTotalGaji());
+        System.out.println("Total Gaji : "+dosen1.hitungTotalGajiDosen());
         System.out.println("\n\n");
 
         Tendik tendik1 = new Tendik();
@@ -74,6 +74,6 @@ public class Main {
         System.out.println("Tahun Masuk : "+tendik1.getTahunMasuk());
         System.out.println("Gaji Pokok : "+tendik1.getGaji());
         System.out.println("Bonus Gaji Lembur/Minggu : "+tendik1.hitungLembur());
-        System.out.println("Total Gaji : "+tendik1.hitungTotalGaji());
+        System.out.println("Total Gaji : "+tendik1.hitungTotalGajiTendik());
     }
 }
