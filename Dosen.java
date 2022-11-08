@@ -3,24 +3,15 @@ public class Dosen extends Karyawan{
     protected String jurusan;
     protected int sksPerminggu;
     protected int sks;
-    protected int hitungsks;
+
 
     public int hitungBonus(){
         sks = 100000*sksPerminggu;
         return sks;
     }
 
-    public int hitung(int var1, int var2){
-        return var1+var2;
-    }
-
-    public int hitungLembur(){
-        hitungsks = hitung(totLembur, gaji);
-        return hitungsks;
-    }
-
-    public int hitungTotalGaji(){
-        return hitung(hitungsks, sks);
+    public int hitungTotalGajiDosen(){
+        return hitung(totLembur, sks, gaji);
     }
 
     public String getNidn() {
