@@ -1,7 +1,6 @@
 public class Tendik extends Karyawan{
-    public int hitungTotalGaji(){
-        int totalGaji = this.hitungLembur() + gaji;
-        return totalGaji;
+    public int hitungTotalGajiTendik(){
+        return hitung(totLembur, gaji);
     }
 
     @Override
