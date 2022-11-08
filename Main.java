@@ -9,10 +9,8 @@ public class Main {
         System.out.print("Masukkan NIDN Dosen : ");
         dosen1.setNidn(input.nextLine());
         System.out.print("Masukkan Nama Dosen : ");
-        input.nextLine();
         dosen1.setNama(input.nextLine());
         System.out.print("Masukkan Alamat : ");
-        input.nextLine();
         dosen1.setAlamat(input.nextLine());
         System.out.print("Masukkan Tanggal Lahir : ");
         dosen1.setTglLahir(input.nextInt());
@@ -51,10 +49,8 @@ public class Main {
         System.out.print("Masukkan NIP Tendik : ");
         tendik1.setNip(input.nextLine());
         System.out.print("Masukkan Nama Tendik : ");
-        input.nextLine();
         tendik1.setNama(input.nextLine());
         System.out.print("Masukkan Alamat : ");
-        input.nextLine();
         tendik1.setAlamat(input.nextLine());
         System.out.print("Masukkan Tanggal Lahir : ");
         tendik1.setTglLahir(input.nextInt());
